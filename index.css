@@ -169,6 +169,7 @@ header a:hover{
     font-size: 33px;
     width: 650px;
 }
+
 .img_señ{
     float: right;
     height: 850px;
@@ -212,7 +213,7 @@ header a:hover{
     display: none;
 }
 .sena_sennova{
-    width: 520px;
+    width: 420px;
     height: 130px;
     margin-top: 20px;
     padding: 10px o;
@@ -360,58 +361,72 @@ a{
 .apoya, .organiza{
     display: flex;
     flex-direction: column;
-    font-weight: 100;
-}
 
+}
+.apoya h3, .organiza h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
 .apoya img, .organiza img{
     width: 400px;
 }
+/* Estilos generales para el footer */
+footer {
+    background-color: #05164f;;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
 
-footer{
+}
+.footer-container{
     display: flex;
-    background-color: #05164f;
-    min-height: 400px;
-    color: white;
     justify-content: center;
-    gap: 0 80px;
+    align-items: center;
+    gap: 500px;
     flex-wrap: wrap;
 }
-footer img{
-    width: 600px;
-}
-.information{
+/* Lado izquierdo */
+.left-side {
+    flex: 1;
     display: flex;
-    justify-content: center;
-    gap: 80px 300px;
-    flex-wrap: wrap;
-    margin-top: 50px;
+    justify-content: center; 
+    align-items: center; 
+
 }
-.imagen-yredes{
-    display: flex;
-    flex-direction: column;
+
+.left-side img {
+    max-width: 100%;
+    height: auto;
 }
-.info{
-    margin-right: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 10px;
+
+/* Lado derecho */
+.info {
+    flex: 1;
+    text-align: left;
 }
-.icono-ubi{
-    display: flex;
-}
-.correo, .icon-whatsapp, .icono-informacion{
+
+.info .icono-informacion,
+.info .correo,
+.info .icon-whatsapp {
     display: flex;
     align-items: center;
+    margin-bottom: 10px;
 }
-.correo img, .icon-whatsapp img, .icono-informacion img{
-    width: 30px;
+
+.info img {
+    width: 25px;
+    margin-right: 10px;
 }
-.p{
-    margin: 40px 20px;
-    text-align: justify;
+
+.p {
+    background-color: #010920;
+    font-size: 14px;
+    color: #bdbdbd;
+    text-align: center;
+    padding: 6px;
 }
-@media (max-width: 1300px){
+
+@media (max-width: 1200px){
     .banner{
         display: none;
     }
@@ -445,6 +460,14 @@ footer img{
         position: relative;
         text-align: center;
     }
+    .left-side img {
+        max-width: 500px;
+        height: auto;
+    }
+    .footer-container{
+        gap: 200px;
+    }
+    
 }
 
 @media (max-width: 800px){
@@ -455,10 +478,22 @@ footer img{
         width: 420px;
         height: 130px;
     }
-    .imagen-yredes img{
-        width: 70vw;
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 90px;
     }
-    .p{
-        font-size: 2.5vw;
+
+    .info {
+        margin-left: 0; 
+        gap: 30px;
+        margin-bottom: 30px;
+    }
+    .left-side img {
+        width: 400px;
+        height: auto;
+    }
+    .p {
+        font-size: 10px;
     }
 }
