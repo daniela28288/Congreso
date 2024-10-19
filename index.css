@@ -302,16 +302,15 @@ a{
 }
 .todo{
     display: flex;
-    align-items: center;
-    position: relative;
+    
 }
 .flecha{
     width: 60px;
     height: 60px;
     border-radius: 50px;
     background: #18a32b;
-    position: absolute;
-    left: 270px;
+    position: relative;
+    right: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -340,12 +339,10 @@ a{
     color: #fdfdfd;
     font-size: 30px;
     font-weight: 600;
-    padding: 0 10px;
 }
 .container-ultimo-banner h3{
     color: #fdfdfd;
     font-size: 50px;
-    padding: 0 10px;
 }
 .container-ultimo-banner h1, .container-ultimo-banner h3, .container-ultimo-banner p{
     margin-left: 100px;
@@ -549,7 +546,26 @@ footer {
     .container-iconos-numericos img{
         width: 290px;
     }
-
+    .recuadro-informacion{
+        width: 190px;
+        height: 340px;
+    }
+    .container-fondo-expositores{
+        gap: 10px;
+    }
+    #primer-expositor{
+        margin-top: 60px;
+    }
+    #ultimo-expositor{
+        margin-bottom: 10px;
+    }
+    .container-fondo-expositores img{
+        width: 400px;
+        height: 500px;
+    }
+    .recuadro-informacion p{
+        font-size: 15px;
+    }
     .container-numeros h1{
         font-size: 40px;
     }
@@ -579,7 +595,7 @@ footer {
     .container-patrocinadores img{
         width: 100%;
     }
-
+    
     .recuadros1, .recuadros2{
         width:100% ;
     }
@@ -611,24 +627,11 @@ footer {
         position: relative;
         left: 8%;
     }
-    .container-ultimo-banner h1{
-        color: #F2D20F;
-        font-size: 10vw;
-    }
 }
 
 
 
 @media (max-width: 700px){
-    .contenedor-recuadros h1{
-        font-size: 12vw;
-        margin: 0 5px;
-    }
-    .p_po{
-        padding: 10px 0;
-        font-size: 8vw;
-        margin: 0 10px;
-    }
     .menu{
         display: flex;
         justify-content: center;
@@ -663,4 +666,3 @@ footer {
         top: 0;
     }
 }
-
