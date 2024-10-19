@@ -82,6 +82,7 @@ header a:hover{
     color: #3A3A3A;
 
 }
+
 .container-iconos-numericos{
     display: flex;
     justify-content: center;
@@ -123,7 +124,7 @@ header a:hover{
     align-items: center;
     background-color: rgb(14, 54, 87);
     width: 300px;
-    height: 45vh;
+    height: 35vh;
     border-radius: 20px;
     color: rgb(241, 241, 241);
     padding: 30px;
@@ -369,6 +370,7 @@ a{
     flex-direction: column;
 
 }
+.container-lineas-tematicas
 .apoya h3, .organiza h3{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
@@ -376,6 +378,47 @@ a{
 .apoya img, .organiza img{
     width: 400px;
 }
+.container-lineas-tematicas{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.titulo_icono_te{
+    width: 10px;
+    height: 10px;
+}
+/* .iconos_tematicas{
+    width: 10px;
+    height: 20px;
+} */
+.container-lineas-tematicas h1{
+    font-size: 80px;
+    text-transform: uppercase;
+    color: #05164f;
+}
+.container-lineas-tematicas h4{
+    font-size: 40px;
+    font-weight: 300;
+}
+.imagenes-tematicas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px ;
+    gap: 70px;
+}
+.imagenes-tematicas img{
+    height: 280px;
+}
+.tematica{
+    margin: 0 10px;
+    box-shadow: 1.5px 1.5px 10px #686868;
+    height: 400px;
+    border-radius: 5px;
+ }
 /* Estilos generales para el footer */
 footer {
     background-color: #05164f;;
