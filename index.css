@@ -89,7 +89,7 @@ header a:hover{
     align-items: center;
     width: 100%;
     gap: 90px;
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(235, 235, 235);
     flex-wrap: wrap;
 }
 .contenedor-recuadros{
@@ -418,6 +418,10 @@ a{
  .tematica{
      width: 290px;
      box-shadow: 1.5px 1.5px 10px #7a7a7a;
+     border-radius: 7px;
+ }
+ .tematica img{
+    border-radius:  7px 7px 0 0;
  }
  .tematica:hover{
     transform: scale(1.10);
