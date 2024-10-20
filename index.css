@@ -405,7 +405,6 @@ a{
     justify-content: center;
     flex-direction: column;
     text-align: center;
-
     font-size: 40px;
  }
  .tematicas{
@@ -659,6 +658,24 @@ footer {
     .recuadros1, .recuadros2{
         width:100% ;
     }
+    .container-lineas-tematicas{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 10px;
+    }
+    .container-lineas-tematicas h4{
+        font-size: 38px;
+        font-weight: 100;
+        text-align: center;
+        font-size: 30px;
+        width: 100%;
+     }
+     .container-lineas-tematicas h1{
+        font-size: 12vw;
+        width: 100%;
+     }
     .footer-container {
         flex-direction: column;
         align-items: center;
