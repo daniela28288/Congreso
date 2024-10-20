@@ -390,34 +390,38 @@ a{
     width: 10px;
     height: 10px;
 }
-/* .iconos_tematicas{
-    width: 10px;
-    height: 20px;
-} */
-.container-lineas-tematicas h1{
-    font-size: 80px;
-    text-transform: uppercase;
+.container-lineas-tematicas{
+    text-align: center;
+    gap: 10px;
+ }
+ .container-lineas-tematicas h1{
     color: #05164f;
+    font-size: 75px;
+ }
+ .container-lineas-tematicas h4{
+    font-size: 38px;
+    font-weight: 100;
+ }
+ .tematicas{
+     display: flex;
+     justify-content: center;
+     gap: 40px;
+     margin-top: 50px;
+     flex-wrap: wrap;
+ }
+ .tematica{
+     width: 290px;
+     box-shadow: 1.5px 1.5px 10px #7a7a7a;
+ }
+ .tematica:hover{
+    transform: scale(1.10);
+
 }
-.container-lineas-tematicas h4{
-    font-size: 40px;
-    font-weight: 300;
-}
-.imagenes-tematicas{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 50px ;
-    gap: 70px;
-}
-.imagenes-tematicas img{
-    height: 280px;
-}
-.tematica{
-    margin: 0 10px;
-    box-shadow: 1.5px 1.5px 10px #686868;
-    height: 400px;
-    border-radius: 5px;
+ .imagen_tematica{
+     width: 100%;
+ }
+ .icono_tematico{
+     height: 60px;
  }
 /* Estilos generales para el footer */
 footer {
