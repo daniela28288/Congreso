@@ -89,7 +89,6 @@ header a:hover{
     align-items: center;
     width: 100%;
     gap: 90px;
-    margin-top: 40px;
     background-color: rgb(238, 238, 238);
     flex-wrap: wrap;
 }
@@ -401,6 +400,13 @@ a{
  .container-lineas-tematicas h4{
     font-size: 38px;
     font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+    font-size: 40px;
  }
  .tematicas{
      display: flex;
