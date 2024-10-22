@@ -145,18 +145,62 @@ header a:hover {
 .container-fondo-expositores {
   width: 100%;
   background-image: url(img/fondo\ de\ expositores.jpg);
-  min-height: 700px;
+  min-height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 70px;
+  gap: 90px;
   flex-wrap: wrap;
 }
-.container-fondo-expositores img {
-  width: 400px;
+.expositor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+  box-shadow: 1.5px 1.5px 10px #000000;
+  background-color: white;
+  padding: 30px;
+  gap: 20px;
+  text-align: center;
+  border-radius: 10px;
+  height: 340px;
+  width: 200px;
 }
+.expositor a:hover{
+  transform: scale(1.05);
+}
+.linea{
+  width: 190px;
+}
+.expositor a{
+  background-color: #051F69;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2.5px 2.5px 10px #656565;
+  font-size: 12px;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.expositor h1{
+  font-size: 22px;
+  color: #39A900;
+}
+.expositor h4{
+  font-size: 15px;
+  font-weight: 100;
+  color: #39A900;
+}
+.imagen-expositor{
+  width: 200px;
+  height: 200px;
+}
+
 .banner {
   background-color: #efefef;
   width: 100%;
@@ -243,6 +287,11 @@ header a:hover {
 b {
   color: #358407;
 }
+.contenedor-register{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+}
 .anclas-registro {
   display: flex;
   flex-wrap: wrap;
@@ -284,7 +333,6 @@ a {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  display: flex;
   flex-wrap: wrap;
 }
 .contenido2 h1 {
@@ -374,14 +422,18 @@ a {
   display: flex;
   flex-direction: column;
 }
-.container-lineas-tematicas .apoya h3,
-.organiza h3 {
+.apoya h3, .organiza h3 {
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: lighter;
+  font-weight: 100;
 }
-.apoya img,
+#texto-apoya{
+  margin-bottom: 50px;
+}
 .organiza img {
   width: 400px;
+}
+#logo-inca{
+  width: 250px;
 }
 .container-lineas-tematicas {
   margin-top: 100px;
