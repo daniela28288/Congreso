@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <title>Cuarto Congreso insenacaa</title>
+    <title>VI CONGRESO NACIONAL DE INVESTIGACIÓN E INNOVACIÓN</title>
     <link rel="stylesheet" href="index.css">
     <link rel="shortcut icon" href="img/logo-sin-letras.png" />
 </head>
+
 <body>
+    <div id="inicio"></div>
     <header>
         <img src="img/logo_fondo blanco.png" alt="">
         <input type="checkbox" id="check">
@@ -17,8 +20,8 @@
         </label>
         <div class="menu">
             <div class="navegador">
-                <a href="">Inicio</a>
-                <a href="#seccion-registrate">Registrese</a>
+                <a href="#inicio">Inicio</a>
+                <a href="#registrate">Registrese</a>
             </div>
             <div class="redes_sociales">
                 <a href=""><img class="redes" src="img/iconos de redes-03.svg" alt=""></a>
@@ -76,16 +79,18 @@
     <div class="informacion">
         <h1>¿Por qué asistir?</h1>
         <br>
-        <p>Este es un evento arbitrado con un escenario de carácter académico, científico y empresarial, que busca generar y transferir conocimiento en investigación e innovación agroempresarial entre los diferentes actores y con una visión prospectiva al año 2030, aportando al desarrollo del país</p>
+        <p>Este es un evento arbitrado con un escenario de carácter académico, científico y empresarial, que busca
+            generar y transferir conocimiento en investigación e innovación agroempresarial entre los diferentes actores
+            y con una visión prospectiva al año 2030, aportando al desarrollo del país</p>
     </div>
     <div class="container-numeros">
         <br><br><br><br><br>
         <h1>EXPANDE TUS CONOCIMIENTOS</h1>
         <br>
         <div class="container-iconos-numericos">
-            <img src="img/Numericos_Mesa de trabajo 1-01.png" alt="">
-            <img src="img/NumerosdeContenidos-02.png" alt="">
-            <img src="img/NumerosdeContenidos-03.png" alt="">
+            <img src="img/conferencistas.png" alt="conferencistas">
+            <img src="img/expositores.png" alt="expositores">
+            <img src="img/empresas.png" alt="empresas">
         </div>
         <br><br><br><br>
     </div>
@@ -118,24 +123,24 @@
             <div class="recuadro-informacion">
                 <img class="icon" src="img/conferencistas-01.png" alt=""><br>
                 <h3>Conferencistas</h3><br>
-                <p>Inmersión de dos días con dos conferencistas internacionales 
-                de alto nivel, reconocidos por su experiencia y liderazgo en 
-                cada uno de los enfoques presentados.</p>
+                <p>Inmersión de dos días con dos conferencistas internacionales
+                    de alto nivel, reconocidos por su experiencia y liderazgo en
+                    cada uno de los enfoques presentados.</p>
             </div>
             <div class="recuadro-informacion">
                 <img class="icon" src="img/Diploma-01.png" alt=""><br>
                 <h3>Certificado</h3><br>
-                <p>Descargue su certificado virtual de 
-                asistencia dle congreso IV Congreso Nacional de 
-                Investigacion e Innovacion, impulsando la producción 
-                para la vida y la transición energética en La Guajira.</p>
+                <p>Descargue su certificado virtual de
+                    asistencia dle congreso IV Congreso Nacional de
+                    Investigacion e Innovacion, impulsando la producción
+                    para la vida y la transición energética en La Guajira.</p>
 
             </div>
             <div class="recuadro-informacion">
                 <img class="icon" src="img/tienda-01.png" alt=""><br>
                 <h3>Feria empresarial</h3><br>
-                <p>Propiciar un espacio comercial y empresarial donde empresas 
-                del sector productivo presentarán sus productos y servicios.</p>
+                <p>Propiciar un espacio comercial y empresarial donde empresas
+                    del sector productivo presentarán sus productos y servicios.</p>
             </div>
         </div>
         <br>
@@ -144,23 +149,23 @@
             <div class="recuadro-informacion">
                 <img class="icon" src="img/ideas-01.png" alt=""><br>
                 <h3>Exposición proyectos</h3><br>
-                <p>Promueve un espacio de encuentro para el intercambio de 
-                conocimientos entre los diferentes agentes del ecosistema de ciencia, 
-                tecnología e innovación del departamento de La Guajira y la región Caribe.</p>
+                <p>Promueve un espacio de encuentro para el intercambio de
+                    conocimientos entre los diferentes agentes del ecosistema de ciencia,
+                    tecnología e innovación del departamento de La Guajira y la región Caribe.</p>
             </div>
             <div class="recuadro-informacion">
                 <img class="icon" src="img/Publicacion de memorias-01.png" alt=""><br>
                 <h3>Publicación de memoria</h3><br>
-                <p>La publicación de todos los artículos presentados en ponencia oral que 
-                cuenten con autorización del autor se realizará en el libro de memorias 
-                con código ISBN.</p>
+                <p>La publicación de todos los artículos presentados en ponencia oral que
+                    cuenten con autorización del autor se realizará en el libro de memorias
+                    con código ISBN.</p>
             </div>
             <div class="recuadro-informacion">
                 <img class="icon" src="img/premio-01.png" alt=""><br>
                 <h3>Premios</h3><br>
-                <p>Las ponencias de cada una de las temáticas tendrán una evaluación del comité 
-                científico de cada especialidad, para otorgar la distinción de “Mejor ponencia 
-                en el congreso”.</p>
+                <p>Las ponencias de cada una de las temáticas tendrán una evaluación del comité
+                    científico de cada especialidad, para otorgar la distinción de “Mejor ponencia
+                    en el congreso”.</p>
             </div>
         </div>
     </div>
@@ -170,59 +175,74 @@
         <img src="img/nombres de exponentes-02.png" alt="">
         <img id="ultimo-expositor" src="img/nombres de exponentes-03.png" alt="">
     </div>
+    <div id="registrate"></div>
     <div class="container-registro">
         <div class="contenido1">
             <h1>TENGA EN CUENTA QUE: </h1>
-            <p>Si va a realizar su registro como <b>ponente</b> lea atentamente los documentos adjuntos antes de su registro</p>
+            <p>Si va a realizar su registro como <b>ponente</b> lea atentamente los documentos adjuntos antes de su
+                registro</p>
             <div class="anclas-registro">
-                <a href=""><div class="ancla">
-                    <img src="img/icono_De_ANcla-02.png" alt="">
-                    <p>Formato plantilla presentación PowerPoint</p>
-                </div></a>
-                <a href=""><div class="ancla">
-                    <img src="img/icono_De_ANcla-03.png" alt="">
-                    <p>Formato carta de originalidad</p>
+                <a href="./docs/Formato-Plantilla-Presentacion-PowerPoint.pptx" target="_blank">
+                    <div class="ancla">
+                        <img src="img/icono_De_ANcla-02.png" alt="">
+                        <p>Formato plantilla presentación PowerPoint</p>
+                    </div>
+                </a>
+                <a href="./docs/Formato-Carta-de-Originalidad.doc" target="_blank">
+                    <div class="ancla">
+                        <img src="img/icono_De_ANcla-03.png" alt="">
+                        <p>Formato carta de originalidad</p>
 
-                </div></a>
-                <a href=""><div class="ancla">
-                    <img src="img/icono_De_ANcla-03.png" alt="">
-                    <p>Guía para presentar su trabajo de investigación IV congreso</p>
+                    </div>
+                </a>
+                <a href="./docs/Guia-para-presentar-su-trabajo-de-investigacion-IV-congreso.pdf" target="_blank">
+                    <div class="ancla">
+                        <img src="img/icono_De_ANcla-01.png" alt="">
+                        <p>Guía para presentar su trabajo de investigación IV congreso</p>
 
-                </div></a>
+                    </div>
+                </a>
             </div>
             <div class="anclas-registro2">
-                <a href=""><div class="ancla">
-                    <img src="img/icono_De_ANcla-03.png" alt="">
-                    <p>Guía para resumen IV CONGRESO</p>
-                </div></a>
-                <a href=""><div class="ancla">
-                    <img id="seccion-registrate" src="img/icono_De_ANcla-02.png" alt="">
-                    <p>Términos de referencia 2024 IV CONGRESO</p>
-                </div></a>
+                <a href="./docs/Guia-para-presentar-su-trabajo-de-investigacion-IV-congreso.pdf" target="_blank">
+                    <div class="ancla">
+                        <img src="img/icono_De_ANcla-01.png" alt="">
+                        <p>Guía para resumen IV CONGRESO</p>
+                    </div>
+                </a>
+                <a href="./docs/Terminos-de-Referencia-IV-Congreso.pdf" target="_blank">
+                    <div class="ancla">
+                        <img id="seccion-registrate" src="img/icono_De_ANcla-01.png" alt="">
+                        <p>Términos de referencia 2024 IV CONGRESO</p>
+                    </div>
+                </a>
             </div>
         </div>
         <div class="contenido2">
             <h1>Regístrate</h1>
-            <a href="https://congresoinsenacaa.com/asistente" class="todo"><div class="opciones">
-                <h6>Asistente</h6>
-            </div>
-            <div class="flecha">
-                <img src="img/arrow-right-solid (1).svg" alt="">
-            </div>
+            <a href="https://congresoinsenacaa.com/asistente" class="todo" target="_blank">
+                <div class="opciones">
+                    <h6>Asistente</h6>
+                </div>
+                <div class="flecha">
+                    <img src="img/arrow-right-solid (1).svg" alt="">
+                </div>
             </a>
-            <!-- <a href="https://congresoinsenacaa.com/evaluador" class="todo"><div class="opciones">
+            <!-- <a href="https://congresoinsenacaa.com/evaluador" class="todo" target="_blank">
+                <div class="opciones">
                 <h6>Evaluador</h6>
             </div>
             <div class="flecha">
                 <img src="img/arrow-right-solid (1).svg" alt="">
             </div>
             </a> -->
-            <a href="https://congresoinsenacaa.com/ponente" class="todo"><div class="opciones">
-                <h6>Ponente</h6>
-            </div>
-            <div class="flecha">
-                <img src="img/arrow-right-solid (1).svg" alt="">
-            </div>
+            <a href="https://congresoinsenacaa.com/ponente" class="todo" target="_blank">
+                <div class="opciones">
+                    <h6>Ponente</h6>
+                </div>
+                <div class="flecha">
+                    <img src="img/arrow-right-solid (1).svg" alt="">
+                </div>
             </a>
         </div>
     </div>
@@ -246,7 +266,7 @@
             <div class="left-side">
                 <img src="img/nombre del centro_Mesa de trabajo 1.png" alt="Centro">
             </div>
-    
+
             <!-- Lado derecho: Información -->
             <div class="info">
                 <div class="icono-informacion">
@@ -256,7 +276,7 @@
                 </div>
                 <p>Fonseca La Guajira</p>
                 <p>PBX 57 601 5461500</p>
-    
+
                 <div class="correo">
                     <img src="img/iconoCorreo_Mesa de trabajo 1.png" alt="Correo">
                     <p>info@congresoinsenacaa.com</p>
@@ -277,6 +297,54 @@
         </div>
     </footer>
     <!-- Copyright -->
-    <p class="p">Copyright © 2024 All Rights Reserved. By ADSO Daniela Brito. Will Smith TM. ING Luis T😎ncel. Leo Carrillo.</p>
-    </body>
+    <p class="p">Copyright &copy;
+        <?php echo date("Y"); ?>
+        Todos los derechos reservados. By ADSO Daniela Brito. Will Smith TM. !Ng LUIS T😎NCEL. Leo Carrillo.
+    </p>
+</body>
+
+<script>
+    // document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+    //     anchor.addEventListener("click", function (e) {
+    //         e.preventDefault();
+
+    //         document.querySelector(this.getAttribute("href")).scrollIntoView({
+    //             behavior: "smooth",
+    //         });
+    //     });
+    // });
+    function smoothScroll(target, duration) {
+        let targetElement = document.querySelector(target);
+        let targetPosition = targetElement.getBoundingClientRect().top + window.scrollY;
+        let startPosition = window.scrollY;
+        let distance = targetPosition - startPosition;
+        let startTime = null;
+
+        function animation(currentTime) {
+            if (startTime === null) startTime = currentTime;
+            let timeElapsed = currentTime - startTime;
+            let run = ease(timeElapsed, startPosition, distance, duration);
+            window.scrollTo(0, run);
+            if (timeElapsed < duration) requestAnimationFrame(animation);
+        }
+
+        function ease(t, b, c, d) {
+            t /= d / 2;
+            if (t < 1) return c / 2 * t * t + b;
+            t--;
+            return -c / 2 * (t * (t - 2) - 1) + b;
+        }
+
+        requestAnimationFrame(animation);
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            smoothScroll(this.getAttribute('href'), 2500); // 1500ms = 1.5 segundos
+        });
+    });
+
+</script>
+
 </html>
