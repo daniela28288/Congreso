@@ -85,6 +85,11 @@ header a:hover {
   font-size: 55px;
   color: #3a3a3a;
 }
+.icono-numero{
+  width: 300px;
+  display: flex;
+  justify-content: center;
+}
 
 .container-iconos-numericos {
   display: flex;
@@ -702,19 +707,16 @@ footer {
   .container-fondo-expositores {
     gap: 10px;
   }
-  #primer-expositor {
-    margin-top: 60px;
+  #primer-expositor{
+    margin-top: 50px;
   }
-  #ultimo-expositor {
-    margin-bottom: 10px;
+  #ultimo-expositor{
+    margin-bottom:50px;
   }
   .recuadro-informacion p {
     font-size: 15px;
   }
-  .container-fondo-expositores img {
-    width: 300px;
-    height: 400px;
-  }
+
   .container-numeros h1 {
     font-size: 40px;
   }
