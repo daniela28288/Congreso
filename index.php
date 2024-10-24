@@ -88,9 +88,9 @@
         <h1>EXPANDE TUS CONOCIMIENTOS</h1>
         <br>
         <div class="container-iconos-numericos">
-            <img class="icono-numero" src="img/Numerosssconferencistas copia-01.svg" alt="conferencistas">
-            <img class="icono-numero" src="img/Numerosssconferencistas copia-03.svg" alt="expositores">
-            <img class="icono-numero" src="img/Numerosssconferencistas copia-02.svg" alt="empresas">
+            <img class="icono-numero" src="img/icono-numero-seis.png" alt="conferencistas">
+            <img class="icono-numero" src="img/icono-numero-veinte.png" alt="expositores">
+            <img class="icono-numero" src="img/icono-numero-diez.png" alt="empresas">
         </div>
         <br><br><br><br>
     </div>
@@ -98,21 +98,21 @@
         <h1>EJES TEMÁTICOS</h1>
         <h4>¿Hacia qué áreas de investigación específicas está encaminado?</h4>
         <div class="tematicas">
-            <a href="primer-eje.html"><div class="tematica">
+            <a href="vista_acuicultura.html" target="_blank"><div title="Ver más informacion" class="tematica">
                 <img src="img/acuicultura y pesca.jpeg" alt="" class="imagen_tematica">
-                <img src="img/Eje_Tematico_Vertical azul-01.png" alt="" class="icono_tematico">
+                <img src="img/Eje_Tematico_Vertical azul-01-01.png" alt="" class="icono_tematico">
             </div></a>
-            <a href="segundo-eje.html"><div class="tematica">
+            <a href="vista_agroindustria.html" target="_blank"><div title="Ver más informacion" class="tematica">
                 <img src="img/agroindustria.JPG" alt="" class="imagen_tematica">
-                <img src="img/Eje_Tematico_Vertical azul-02.png" alt="" class="icono_tematico">
+                <img src="img/Eje_Tematico_Vertical azul-02-01.png" alt="" class="icono_tematico">
             </div></a>
-            <a href="tercer-eje.html"><div class="tematica">
+            <a href="vista_agropecuario.html" target="_blank"><div title="Ver más informacion" class="tematica">
                 <img src="img/agropecuario.jpg" alt="" class="imagen_tematica">
-                <img src="img/Eje_Tematico_Vertical azul-03.png" alt="" class="icono_tematico">
+                <img src="img/Eje_Tematico_Vertical azul-03-01.png" alt="" class="icono_tematico">
             </div></a>
-            <a href="cuarto-eje.html"><div class="tematica">
+            <a href="vista_trancision-energetica.html" target="_blank"><div title="Ver más informacion" class="tematica">
                 <img src="img/transcion energetica.jpg" alt="" class="imagen_tematica">
-                <img src="img/Eje_Tematico_Vertical azul-04.png" alt="" class="icono_tematico">
+                <img src="img/Eje_Tematico_Vertical azul-04-01.png" alt="" class="icono_tematico">
             </div></a>
         </div>
     </div>
@@ -217,27 +217,27 @@
             <div class="contenedor-register">
                 <div class="anclas-registro">
                     <a href="./docs/Formato-Plantilla-Presentacion-PowerPoint.pptx" target="_blank">
-                        <div class="ancla">
+                        <div title="Descargar archivo" class="ancla">
                             <img src="img/icono_De_ANcla-02.png" alt="">
                             <p>Formato plantilla presentación PowerPoint</p>
                         </div>
                     </a>
                     <a href="./docs/Formato-Carta-de-Originalidad.doc" target="_blank">
-                        <div class="ancla">
+                        <div title="Descargar archivo" class="ancla">
                             <img src="img/icono_De_ANcla-03.png" alt="">
                             <p>Formato carta de originalidad</p>
 
                         </div>
                     </a>
                     <a href="./docs/Guia-para-presentar-su-trabajo-de-investigacion-IV-congreso.pdf" target="_blank">
-                        <div class="ancla">
+                        <div title="Descargar archivo" class="ancla">
                             <img src="img/icono_De_ANcla-01.png" alt="">
                             <p>Guía para presentar su trabajo de investigación IV congreso</p>
 
                         </div>
                     </a>
                     <a href="./docs/Terminos-de-Referencia-IV-Congreso.pdf" target="_blank">
-                        <div class="ancla">
+                        <div title="Descargar archivo" class="ancla">
                             <img id="seccion-registrate" src="img/icono_De_ANcla-01.png" alt="">
                             <p>Términos de referencia 2024 IV CONGRESO</p>
                         </div>
@@ -251,7 +251,7 @@
                 <div class="opciones">
                     <h6>Asistente</h6>
                 </div>
-                <div class="flecha">
+                <div title="Registrarme como asistente" class="flecha">
                     <img src="img/arrow-right-solid (1).svg" alt="">
                 </div>
             </a>
@@ -267,7 +267,7 @@
                 <div class="opciones">
                     <h6>Ponente</h6>
                 </div>
-                <div class="flecha">
+                <div title="Registrarme como ponente" class="flecha">
                     <img src="img/arrow-right-solid (1).svg" alt="">
                 </div>
             </a>
@@ -300,10 +300,16 @@
                 <div class="icono-informacion">
                     <img src="img/icono lugarBlanco.svg" alt="Ubicación">
                     <p>Kilómetro 1 Salida a Barrancas</p>
-
                 </div>
-                <p>Fonseca La Guajira</p>
-                <p>PBX 57 601 5461500</p>
+                <div class="icono-informacion">
+                    <img src="img/icono lugarBlanco.svg" alt="Ubicación">
+                    <p>Fonseca La Guajira</p>
+                </div>
+                <div class="icono-informacion">
+                    <img src="img/icon-pbx.png" alt="Ubicación">
+                    <p>PBX 57 601 5461500</p>
+                </div>
+
 
                 <div class="correo">
                     <img src="img/iconoCorreo_Mesa de trabajo 1.png" alt="Correo">
@@ -327,7 +333,7 @@
     <!-- Copyright -->
     <p class="p">Copyright &copy;
         <?php echo date("Y"); ?>
-        Todos los derechos reservados. By ADSO !Ng LUIS T😎NCEL. Leo Carrillo.
+        Todos los derechos reservados. Centro Agroempresarial y Acuícola - SENA Regional Guajira | By ADSO.
     </p>
 </body>
 
