@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="index.css">
     <link rel="shortcut icon" href="img/logo-sin-letras.png" />
 </head>
+ 
 
 <body>
     <div class="inicio"></div>
