@@ -316,6 +316,9 @@ header a:hover {
   justify-content: center;
   gap: 80px;
 }
+.icono-numero_ex{
+  width: 340px;
+}
 .container-registro h1 {
   color: #3fa406;
 }
