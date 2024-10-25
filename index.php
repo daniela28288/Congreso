@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,7 @@
     <link rel="stylesheet" href="index.css">
     <link rel="shortcut icon" href="img/logo-sin-letras.png" />
 </head>
- 
+
 
 <body>
     <div class="inicio"></div>
@@ -34,8 +35,8 @@
         </div>
     </header>
     <div class="banner">
-        <img src="img/backgrud completo_.jpeg.jpeg" alt="" class="img_señ">
-        <div class="contenido">
+        <img src="img/portada_horizontal_info.png" alt="" class="img_señ.">
+        <!-- <div class="contenido">
             <h1>IV Congreso Nacional de<br>INVESTIGACIÓN E INNOVACIÓN</h1>
             <h3>Impulsando la producción para la vida<br>y la transición energética en La Guajira</h3>
             <p class="info_con">
@@ -52,11 +53,11 @@
                 <p>Teatro Akuaipia - Riohacha La Guajira</p>
             </div>
             <img src="img/logo_sennova y sena.png" alt="" class="sena_sennova">
-        </div>
+        </div> -->
     </div>
     <div class="banner2">
-        <img src="img/backgrud completo_.jpeg.jpeg" alt="" class="img_g">
-        <div class="contenido2">
+        <img src="img/portada_vertical_info.png" alt="" class="img_g">
+        <!-- <div class="contenido2">
             <h1>IV Congreso Nacional de<br>INVESTIGACIÓN E INNOVACIÓN</h1>
             <h3>Impulsando la producción para la vida<br>y la transición energética en La Guajira</h3>
             <p class="info_con">
@@ -73,7 +74,7 @@
                 <p>Teatro Akuaipia - Riohacha La Guajira</p>
             </div>
             <div class="imagen-sennova"><img src="img/logo_sennova y sena.png" alt="" class="sena_sennova"></div>
-        </div>
+        </div> -->
     </div>
 
     <div class="informacion">
@@ -98,22 +99,30 @@
         <h1>EJES TEMÁTICOS</h1>
         <h4>¿Hacia qué áreas de investigación específicas está encaminado?</h4>
         <div class="tematicas">
-            <a href="vista_acuicultura.html" target="_blank"><div title="Ver más informacion" class="tematica">
-                <img src="img/acuicultura y pesca.jpeg" alt="" class="imagen_tematica">
-                <img src="img/Eje_Tematico_Vertical azul-01-01.png" alt="" class="icono_tematico">
-            </div></a>
-            <a href="vista_agroindustria.html" target="_blank"><div title="Ver más informacion" class="tematica">
-                <img src="img/agroindustria.JPG" alt="" class="imagen_tematica">
-                <img src="img/Eje_Tematico_Vertical azul-02-01.png" alt="" class="icono_tematico">
-            </div></a>
-            <a href="vista_agropecuario.html" target="_blank"><div title="Ver más informacion" class="tematica">
-                <img src="img/agropecuario.jpg" alt="" class="imagen_tematica">
-                <img src="img/Eje_Tematico_Vertical azul-03-01.png" alt="" class="icono_tematico">
-            </div></a>
-            <a href="vista_trancision-energetica.html" target="_blank"><div title="Ver más informacion" class="tematica">
-                <img src="img/transcion energetica.jpg" alt="" class="imagen_tematica">
-                <img src="img/Eje_Tematico_Vertical azul-04-01.png" alt="" class="icono_tematico">
-            </div></a>
+            <a href="vista_acuicultura.html" target="_blank">
+                <div title="Ver más informacion" class="tematica">
+                    <img src="img/acuicultura y pesca.jpeg" alt="" class="imagen_tematica">
+                    <img src="img/Eje_Tematico_Vertical azul-01-01.png" alt="" class="icono_tematico">
+                </div>
+            </a>
+            <a href="vista_agroindustria.html" target="_blank">
+                <div title="Ver más informacion" class="tematica">
+                    <img src="img/agroindustria.JPG" alt="" class="imagen_tematica">
+                    <img src="img/Eje_Tematico_Vertical azul-02-01.png" alt="" class="icono_tematico">
+                </div>
+            </a>
+            <a href="vista_agropecuario.html" target="_blank">
+                <div title="Ver más informacion" class="tematica">
+                    <img src="img/agropecuario.jpg" alt="" class="imagen_tematica">
+                    <img src="img/Eje_Tematico_Vertical azul-03-01.png" alt="" class="icono_tematico">
+                </div>
+            </a>
+            <a href="vista_trancision-energetica.html" target="_blank">
+                <div title="Ver más informacion" class="tematica">
+                    <img src="img/transcion energetica.jpg" alt="" class="imagen_tematica">
+                    <img src="img/Eje_Tematico_Vertical azul-04-01.png" alt="" class="icono_tematico">
+                </div>
+            </a>
         </div>
     </div>
     <div class="contenedor-recuadros">
@@ -171,7 +180,7 @@
     </div>
     <br><br><br><br><br>
     <div class="container-fondo-expositores">
-        <div  id="primer-expositor" class="expositor">
+        <div id="primer-expositor" class="expositor">
             <img class="imagen-expositor" src="img/primer-expositor.png" alt="">
             <img class="linea" src="img/linea-seccion-expositores.png" alt="">
             <div class="textt">
@@ -180,7 +189,8 @@
             </div>
             <div class="infoperfil">
                 <img src="img/icons8-podio-con-altavoz-48.png" alt="">
-                Ingeniero Pesquero de la Universidad del Magdalena. Magíster (M.Sc.) en Pesquerías de la Universidad de Concepción, Chile. Doctorado (Ph.D.) en Ciencias Naturales, Universidad de Bremen, Alemania.
+                Ingeniero Pesquero de la Universidad del Magdalena. Magíster (M.Sc.) en Pesquerías de la Universidad de
+                Concepción, Chile. Doctorado (Ph.D.) en Ciencias Naturales, Universidad de Bremen, Alemania.
             </div>
         </div>
         <div class="expositor">
@@ -192,10 +202,11 @@
             </div>
             <div class="infoperfil">
                 <img src="img/icons8-podio-con-altavoz-48.png" alt="">
-                Biólogo, con Especialización en Estadística Aplicada, Maestría en Ciencias Ambientales y Doctorado en Toxicología Ambiental.
+                Biólogo, con Especialización en Estadística Aplicada, Maestría en Ciencias Ambientales y Doctorado en
+                Toxicología Ambiental.
             </div>
         </div>
-        <div  id="ultimo-expositor" class="expositor">
+        <div id="ultimo-expositor" class="expositor">
             <img class="imagen-expositor" src="img/tercer-expositor.png" alt="">
             <img class="linea" src="img/linea-seccion-expositores.png" alt="">
             <div class="textt">
@@ -204,7 +215,8 @@
             </div>
             <div class="infoperfil">
                 <img src="img/icons8-podio-con-altavoz-48.png" alt="">
-                Médico veterinario y zootecnista con especialidad en patología anatómica veterinaria y estudios de maestría en microbiologia.
+                Médico veterinario y zootecnista con especialidad en patología anatómica veterinaria y estudios de
+                maestría en microbiologia.
             </div>
         </div>
     </div>
