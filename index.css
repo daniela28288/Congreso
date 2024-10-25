@@ -8,6 +8,9 @@ body {
 .work-wans {
   font-family: "Work Sans", sans-serif;
 }
+
+
+/* ----------------------------------------------- ENCABEZADO --------------------------------------------------- */
 header {
   background: #051f69;
   display: flex;
@@ -40,6 +43,8 @@ header a {
 header a:hover {
   transform: scale(1.1);
 }
+
+
 .redes_sociales {
   display: flex;
   gap: 17px;
@@ -55,9 +60,36 @@ header a:hover {
 
 #check,
 .abrir-menu,
-.cerrar-menu {
+.cerrar-menu, .check {
   display: none;
 }
+/* ---------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+/* ----------------------------------------------- BANNER --------------------------------------------------- */
+
+.img_banner, .img_banner2{
+  width: 100%;
+}
+.img_banner2{
+  display: none;
+}
+
+/* ----------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+/*---------------------------------------------- INFORMACION POR QUE ASISTIR ---------------------------------------------------- */
 .informacion {
   display: flex;
   justify-content: center;
@@ -73,6 +105,14 @@ header a:hover {
 .informacion h1 {
   font-size: 60px;
 }
+/* <!-- -------------------------------------------------------------------------------------------------------------------------------> */
+
+
+
+
+
+
+/* <!-- ----------------------------------------------NUMEROS ASISTENTES----------------------------------------------------> */
 .container-numeros {
   display: flex;
   justify-content: center;
@@ -113,6 +153,82 @@ header a:hover {
   flex-wrap: wrap;
   margin-top: 35px;
 }
+/* <!-- --------------------------------------------------------------------------------------------------------------------------> */
+
+
+
+
+
+
+/* <!-- --------------------------------------- EJES TEMATICOS ------------------------------------------------------------------> */
+.container-lineas-tematicas {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.container-lineas-tematicas {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.container-lineas-tematicas {
+  text-align: center;
+  gap: 10px;
+}
+.container-lineas-tematicas h1 {
+  color: #05164f;
+  font-size: 55px;
+}
+.container-lineas-tematicas h4 {
+  font-size: 38px;
+  font-weight: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 30px;
+}
+.tematicas {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+.tematica {
+  width: 290px;
+  box-shadow: 1.5px 1.5px 10px #b8b8b8;
+  border-radius: 7px;
+}
+.tematica img {
+  border-radius: 7px 7px 0 0;
+}
+.tematica:hover {
+  transform: scale(1.1);
+}
+.imagen_tematica {
+  width: 100%;
+}
+.icono_tematico {
+  height: 60px;
+}
+/* <!-- ----------------------------------------------------------------------------------------------------------------------------> */
+
+
+
+
+
+
+
+/* --------------------------------------------- VENTAJAS Y BENEFICIOS -------------------------------------------------------- */
 .contenedor-recuadros {
   display: flex;
   align-items: center;
@@ -165,6 +281,11 @@ header a:hover {
 .icon {
   width: 100px;
 }
+/* -------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* <!--------------------------------------------- CONTENEDOR EXPOSITORES --------------------------------------------------------> */
 .container-fondo-expositores {
   display: flex;
   width: 100%;
@@ -251,86 +372,20 @@ header a:hover {
   width: 200px;
   height: 200px;
 }
+/* <!--------------------------------------------------------------------------------------------------------------------------> */
 
-.banner {
-  background-color: #efefef;
-  width: 100%;
-  height: auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  align-content: center;
-  font-family: sans-serif;
-  position: relative;
-}
-.banner h1 {
-  color: #051f69;
-  font-size: 55px;
-}
-.banner h3 {
-  margin-top: 10px;
-  color: #19a32c;
-  font-size: 33px;
-  width: 650px;
-}
 
-.img_señ {
-  float: right;
-  height: 850px;
-}
-.info_con {
-  margin-top: 40px;
-  color: #747474;
-  font-size: 28px;
-}
-.fecha {
-  display: flex;
-  align-items: center;
-  font-size: 25px;
-  color: #747474;
-}
 
-.fecha img {
-  height: 40px;
-}
-.ubi {
-  display: flex;
-  align-items: center;
-  font-size: 25px;
-  color: #747474;
-  margin-left: 8px;
-}
-.ubi img {
-  height: 40px;
-}
-.fecha {
-  margin-top: 100px;
-  margin-bottom: 20px;
-  margin-left: 10px;
-}
-.contenido {
-  position: absolute;
-  right: 60%;
-  top: 60px;
-}
-.banner2 {
-  display: none;
-}
-.sena_sennova {
-  width: 430px;
-  height: 140px;
-  margin-top: 20px;
-  padding: 10px o;
-}
+
+
+
+/* <!--------------------------------------------- CONTENEDOR REGISTRO --------------------------------------------------------> */
 .container-registro {
   margin: 100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 80px;
-}
-.icono-numero_ex{
-  width: 340px;
 }
 .container-registro h1 {
   color: #3fa406;
@@ -429,6 +484,24 @@ a {
 .flecha img {
   height: 20px;
 }
+/* <!--------------------------------------------- ----------------------------- --------------------------------------------------------> */
+
+
+
+
+
+
+
+
+
+
+
+
+/* .icono-numero_ex{
+  width: 340px;
+} */
+
+/* <!--------------------------------------------- CONTENEDOR ULTIMO BANNER --------------------------------------------------------> */
 .container-ultimo-banner {
   background-image: url(img/comfaguajiraweb.jpg);
   max-width: 100%;
@@ -457,24 +530,32 @@ a {
 .container-ultimo-banner p {
   margin-left: 100px;
 }
-#check {
-  display: none;
-}
-.check {
-  display: none;
-}
+/* <!--------------------------------------------- ------------------------- --------------------------------------------------------> */
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* <!--------------------------------------------- CONTENEDOR PATROCINADORES --------------------------------------------------------> */
 /* Sección de patrocinadores */
 .seccion-patrocinadores {
   display: flex; 
   justify-content: center;
   align-items: flex-start; 
-  padding: 30px 10px;
+  padding: 30px 0px;
   background-color: #ffffff; 
   border-radius: 10px; 
-  margin: 40px auto; 
-  min-width: 100%;
+  margin: 30px auto; 
+  width: 100%;
   gap: 200px;
 }
 
@@ -494,7 +575,7 @@ a {
   display: flex;
   justify-content: center; 
   align-items: center;
-  gap: 20px;
+  gap: 55px;
   flex-wrap: wrap;
 }
 #logo-inca{
@@ -519,95 +600,27 @@ a {
   transform: scale(1.1); 
 }
 
-
-.apoya,
-.organiza {
-  display: flex;
-  flex-direction: column;
-}
 .apoya h3, .organiza h3 {
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: 100;
 }
-#texto-apoya{
-  margin-bottom: 50px;
-}
+
 .organiza img {
   width: 400px;
 }
 #logo-inca{
   width: 250px;
 }
-.container-lineas-tematicas {
-  margin-top: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-}
-.titulo_icono_te {
-  width: 10px;
-  height: 10px;
-}
+
+/* <!--------------------------------------------- ------------------------- --------------------------------------------------------> */
 
 
 
-.container-lineas-tematicas {
-  margin-top: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-}
-.titulo_icono_te {
-  width: 10px;
-  height: 10px;
-}
-.container-lineas-tematicas {
-  text-align: center;
-  gap: 10px;
-}
-.container-lineas-tematicas h1 {
-  color: #05164f;
-  font-size: 55px;
-}
-.container-lineas-tematicas h4 {
-  font-size: 38px;
-  font-weight: 100;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-  font-size: 30px;
-}
-.tematicas {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  margin-top: 50px;
-  flex-wrap: wrap;
-}
-.tematica {
-  width: 290px;
-  box-shadow: 1.5px 1.5px 10px #7a7a7a;
-  border-radius: 7px;
-}
-.tematica img {
-  border-radius: 7px 7px 0 0;
-}
-.tematica:hover {
-  transform: scale(1.1);
-}
-.imagen_tematica {
-  width: 100%;
-}
-.icono_tematico {
-  height: 60px;
-}
-/* Estilos generales para el footer */
+
+
+
+
+
+/* <!--------------------------------------------- FOOTER --------------------------------------------------------> */
 footer {
   background-color: #05164f;
   color: #fff;
@@ -660,89 +673,18 @@ footer {
   text-align: center;
   padding: 6px;
 }
+/* <!------------------------------------------------------- --------------------------------------------------------> */
 
-@media (max-width: 2151px) and (min-width:1500px) {
-  .banner h1, .banner h3, .banner p{
-    margin-left: 60px;
-  }
-  .fecha{
-    margin-left: 60px;
-  }
-  .ubi{
-    margin-left: 60px;
-  }
-  .sena_sennova{
-    margin-left: 60px;
-    height: 150px;
-  }
-  .contenido {
-    position: absolute;
-    right: 55%;
-  }
-  
-}
-@media (max-width: 1911px) {
-  .contenido {
-    position: absolute;
-    right: 50%;
-  }
-}
-@media (max-width: 1911px) {
-  .contenido {
-    position: absolute;
-    right: 45%;
-  }
-}
-@media (max-width: 1600px) {
-  .contenido {
-    position: absolute;
-    right: 42%;
-  }
-}
-@media (max-width: 1431px) {
-  .contenido {
-    position: absolute;
-    right: 33%;
-  }
-}
 
 @media (max-width: 1300px) {
-  .banner {
-    display: none;
-  }
-  .contenido2 {
-    text-align: center;
-  }
-  .contenido2 h1 {
-    margin-top: 20px;
-    padding: 0 10px;
-    color: #051f69;
-    font-size: 40px;
-    font-family: sans-serif;
-  }
-  .contenido2 h3 {
-    color: #19a32c;
-    margin-top: 5px;
-    font-size: 25px;
-  }
-  .contenido2 p {
-    padding: 0 10px;
-  }
-  .banner2 {
-    display: block;
-    background: #f0f0f0;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    align-content: center;
-    font-family: sans-serif;
-    position: relative;
-    text-align: center;
-  }
+  /* <!--------------------------------------------- FOOTER --------------------------------------------------------> */
   .footer-container {
     gap: 200px;
   }
+  /* <!--------------------------------------------- --- --------------------------------------------------------> */
+
+
+  /* <!--------------------------------------------- CONTENEDOR ULTIMO BANNER --------------------------------------------------------> */
   .container-ultimo-banner {
     gap: 20px;
     text-align: center;
@@ -765,8 +707,12 @@ footer {
     color: #fdfdfd;
     font-size: 40px;
   }
+  /* <!----------------------------------------------------------------------------------------------------------------------------------> */
 }
 
+
+
+/* ------------------------------------------------------------ HACE PARTE DEL ENCABEZADO -------------------------------------- */
 @media (max-width: 1230px) {
   .navegador {
     position: relative;
@@ -780,54 +726,38 @@ footer {
     left: 18%;
   }
 }
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+/* ------------------------------------------------------------- BANNER ----------------------------------------------------------------------- */
+@media (max-width: 970px) {
+  .img_banner{
+    display: none;
+  }
+  .img_banner2{
+    display: block;
+  }
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
 
 @media (max-width: 900px) {
-  .banner2 {
-    overflow: hidden;
-    gap: 2px;
-  }
-
-  .img_g {
-    width: 100%;
-  }
-  .imagen-sennova {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin-bottom: 30px;
-  }
-  .sena_sennova {
-    width: 280px;
-    height: 120px;
-  }
-
+  /* <!-- ---------------------------------------------- INFORMACION POR QUE ASISTIR ----------------------------------------------------> */
   .informacion h1 {
     font-size: 30px;
   }
   .informacion p {
     font-size: 20px;
   }
-  .info {
-    margin-left: 0;
-    gap: 30px;
-    margin-bottom: 30px;
-  }
-  .info_con {
-    margin-top: 9px;
-  }
-  .fecha {
-    margin-top: 30px;
-    margin-bottom: 0px;
-  }
-  .ubi {
-    margin-top: 0px;
-  }
-  .fecha img,
-  .ubi img {
-    width: 20px;
-    margin-left: 20px;
-  }
+  /* <!-- ----------------------------------------------------------------------------------------------------------------------------------> */
+
+
+
+
+  /* <!--------------------------------------------- FOOTER --------------------------------------------------------> */
   .left-side img {
     width: 100%;
     height: auto;
@@ -835,16 +765,46 @@ footer {
   .p {
     font-size: 10px;
   }
+  /* <!--------------------------------------------- -------- --------------------------------------------------------> */
+
+
+
+  /* <!-- ----------------------------------------------NUMEROS ASISTENTES----------------------------------------------------> */
   .container-iconos-numericos {
     gap: 60px;
   }
   .container-iconos-numericos img {
     width: 290px;
   }
+  .container-numeros h1 {
+    font-size: 40px;
+  }
+  /* <!-- ----------------------------------------------NUMEROS ASISTENTES----------------------------------------------------> */
+
+
+
+
+
+  /* <!--------------------------------------------- VENTAJAS Y BENEFICIOS --------------------------------------------------------> */
   .recuadro-informacion {
     width: 190px;
     height: 340px;
   }
+  .recuadro-informacion p {
+    font-size: 15px;
+  }
+  .recuadros1,
+  .recuadros2 {
+    width: 100%;
+  }
+  /* <!--------------------------------------------- -------------------------- --------------------------------------------------------> */
+
+
+
+
+
+
+  /* <!--------------------------------------------- CONTENEDOR EXPOSITORES --------------------------------------------------------> */
   .container-fondo-expositores {
     gap: 10px;
   }
@@ -854,13 +814,21 @@ footer {
   #ultimo-expositor{
     margin-bottom:50px;
   }
-  .recuadro-informacion p {
-    font-size: 15px;
-  }
+  /* <!----------------------------------------------------------------------------------------------------------------------------------> */
+  
 
-  .container-numeros h1 {
-    font-size: 40px;
-  }
+
+
+
+
+
+
+
+
+
+
+
+  /* <!--------------------------------------------- CONTENEDOR REGISTRO --------------------------------------------------------> */
   .contenido1 h1 {
     width: 100%;
     margin-bottom: 18px;
@@ -875,6 +843,13 @@ footer {
   .anclas-registro2 {
     justify-content: center;
   }
+  /* <!-------------------------------------------------------------------------------------------------------------------------------> */
+
+
+
+
+
+  /* <!--------------------------------------------- CONTENEDOR ULTIMO BANNER --------------------------------------------------------> */
   .container-ultimo-banner {
     background-image: url(img/comfaguajiramovil.jpg);
     width: 100%;
@@ -883,6 +858,13 @@ footer {
     justify-content: center;
     flex-direction: column;
   }
+  /* <!--------------------------------------------------------------------------------------------------------------------------------> */
+
+
+
+
+
+  /* <!--------------------------------------------- CONTENEDOR PATROCINADORES --------------------------------------------------------> */
   .container-patrocinadores {
     justify-content: center;
     align-items: center;
@@ -890,11 +872,13 @@ footer {
   .container-patrocinadores img {
     width: 100%;
   }
+  /* <!--------------------------------------------------------------------------------------------------------> */
+  
 
-  .recuadros1,
-  .recuadros2 {
-    width: 100%;
-  }
+
+
+
+  /* ------------------------------ EJES TEMATICOS ------------------------------------ */
   .container-lineas-tematicas {
     display: flex;
     justify-content: center;
@@ -915,26 +899,42 @@ footer {
     font-size: 12vw;
     text-align: center;
   }
+  /* ---------------------------------------------------------------------------------- */
+
+
+
+  /* <!--------------------------------------------- FOOTER --------------------------------------------------------> */
   .footer-container {
     flex-direction: column;
     align-items: center;
     gap: 90px;
     width: 100%;
   }
+  /* <!--------------------------------------------- -------- --------------------------------------------------------> */
 }
 
 
 @media (max-width: 900px) {
+
+  /* ------------------------------------------------------------ HACE PARTE DEL ENCABEZADO -------------------------------------- */
   .navegador {
     position: relative;
     left: 8%;
   }
+  /* -------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+  /* <!--------------------------------------------- CONTENEDOR ULTIMO BANNER --------------------------------------------------------> */
   .container-ultimo-banner h1 {
     color: #f2d20f;
     font-size: 10vw;
   }
+  /* <!--------------------------------------------------------------- --------------------------------------------------------> */
 }
 
+
+/* <!--------------------------------------------- CONTENEDOR PATROCINADORES --------------------------------------------------------> */
 @media screen and (max-width: 768px) {
   .seccion-patrocinadores {
       flex-direction: column; 
@@ -952,8 +952,14 @@ footer {
     font-weight: 600;
   }
 }
+/* <!--------------------------------------------- -----------------------------------------------------------------------------------> */
+
+
 
 @media (max-width: 700px) {
+
+
+  /* <!--------------------------------------------- VENTAJAS Y BENEFICIOS --------------------------------------------------------> */
   .contenedor-recuadros h1 {
     font-size: 12vw;
     margin: 0 5px;
@@ -963,6 +969,11 @@ footer {
     font-size: 8vw;
     margin: 0 10px;
   }
+  /* <!-------------------------------------------------------------------------------------------------------------------------> */
+
+
+
+  /* ------------------------------------------------------------ HACE PARTE DEL ENCABEZADO -------------------------------------- */
   .menu {
     display: flex;
     justify-content: center;
@@ -997,4 +1008,5 @@ footer {
     position: absolute;
     top: 0;
   }
+  /* --------------------------------------------------------------------------------------------------------------------------------- */
 }
