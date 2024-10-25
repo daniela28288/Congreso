@@ -5,30 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agropecuario</title>
     <link rel="stylesheet" href="styles_vistas_ejes.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="shortcut icon" href="img/LOGO SIN LETRAS.svg" />
 </head>
 <body>
-    <header>
-        <img src="img/logo_fondo blanco.png" alt="">
-        <input type="checkbox" id="check">
-        <label for="check" class="abrir-menu">
-            &#8801
-        </label>
-        <div class="menu">
-            <div class="navegador">
-                <a href="index.html">Inicio</a>
-                <a href="index.html#registrate">Registrese</a>
-            </div>
-            <div class="redes_sociales">
-                <a href=""><img class="redes" src="img/iconos de redes-03.svg" alt=""></a>
-                <a href=""><img class="redes" src="img/iconos de redes_Mesa de trabajo 1.svg" alt=""></a>
-                <a href=""><img class="redes" src="img/iconos de redes-02.svg" alt=""></a>
-            </div>
-            <label for="check" class="cerrar-menu">
-                &#215
-            </label>
-        </div>
-    </header>
+    <?php include_once 'includes/header.php'; ?>
     
     <div class="contenedor_eje">
         <div class="contenido_eje">
@@ -87,58 +68,6 @@
         </div>
     </div>
 
-
-
-
-
-
-
-
-
-    <footer>
-        <div class="footer-container">
-            <div class="left-side">
-                <img src="img/nombre del centro_Mesa de trabajo 1.png" alt="Centro">
-            </div>
-
-            <!-- Lado derecho: Información -->
-            <div class="info">
-                <div class="icono-informacion">
-                    <img src="img/icono lugarBlanco.svg" alt="Ubicación">
-                    <p>Kilómetro 1 Salida a Barrancas</p>
-                </div>
-                <div class="icono-informacion">
-                    <img src="img/icono lugarBlanco.svg" alt="Ubicación">
-                    <p>Fonseca La Guajira</p>
-                </div>
-                <div class="icono-informacion">
-                    <img src="img/icon-pbx.png" alt="Ubicación">
-                    <p>PBX 57 601 5461500</p>
-                </div>
-
-
-                <div class="correo">
-                    <img src="img/iconoCorreo_Mesa de trabajo 1.png" alt="Correo">
-                    <p>info@congresoinsenacaa.com</p>
-                </div>
-                <div class="correo">
-                    <img src="img/iconoCorreo_Mesa de trabajo 1.png" alt="Correo">
-                    <p>egarrido@sena.edu.co</p>
-                </div>
-                <div class="correo">
-                    <img src="img/iconoCorreo_Mesa de trabajo 1.png" alt="Correo">
-                    <p>bwild@sena.edu.co</p>
-                </div>
-                <div class="icon-whatsapp">
-                    <img src="img/whatsapp-01.svg" alt="Whatsapp">
-                    <p>301 221 9139</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- Copyright -->
-    <p class="p">
-        Copyright © Todos los derechos reservados. Centro Agroempresarial y Acuícola - SENA Regional Guajira | By ADSO.
-    </p>
+    <?php include_once 'includes/footer.php'; ?>
 </body>
 </html>

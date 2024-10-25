@@ -23,7 +23,9 @@ header {
   width: 100%;
   display: flex;
 }
-
+.logo{
+  width: 400px;
+}
 .navegador {
   display: flex;
   align-items: center;
@@ -289,6 +291,7 @@ header a:hover {
 .container-fondo-expositores {
   display: flex;
   width: 100%;
+  flex-direction: column;
   background-image: url(img/fondo\ de\ expositores.jpg);
   min-height: 500px;
   background-size: cover;
@@ -296,8 +299,19 @@ header a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 90px;
   flex-wrap: wrap;
+}
+.primera-columna-de-expositores, .segunda-linea-de-expositores{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.primera-columna-de-expositores{
+  margin-top: 30px;
+}
+.segunda-linea-de-expositores{
+  margin-bottom: 30px;
 }
 .expositor{
   position: relative;
@@ -316,6 +330,7 @@ header a:hover {
   width: 200px;
   cursor: pointer;
   transition: width 0.3s ease; 
+  margin: 30px 30px;
 }
 
 .linea{
@@ -806,13 +821,7 @@ footer {
 
   /* <!--------------------------------------------- CONTENEDOR EXPOSITORES --------------------------------------------------------> */
   .container-fondo-expositores {
-    gap: 10px;
-  }
-  #primer-expositor{
-    margin-top: 50px;
-  }
-  #ultimo-expositor{
-    margin-bottom:50px;
+    gap: 5x;
   }
   /* <!----------------------------------------------------------------------------------------------------------------------------------> */
   
