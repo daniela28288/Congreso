@@ -103,6 +103,16 @@ header a:hover {
   flex-wrap: wrap;
   margin-top: 35px;
 }
+.container-iconos-numericos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 90px;
+  background-color: rgb(245, 245, 245);
+  flex-wrap: wrap;
+  margin-top: 35px;
+}
 .contenedor-recuadros {
   display: flex;
   align-items: center;
@@ -121,7 +131,7 @@ header a:hover {
   align-items: center;
 }
 .recuadros1 {
-  margin-top: 80px;
+  margin-top: 50px;
 }
 .recuadros1,
 .recuadros2 {
@@ -129,7 +139,7 @@ header a:hover {
   justify-content: center;
   align-items: center;
   gap: 95px;
-  font-size: 20px;
+  font-size: 17px;
   text-align: center;
   flex-wrap: wrap;
 }
@@ -139,8 +149,8 @@ header a:hover {
   justify-content: center;
   align-items: center;
   background-color: rgb(14, 54, 87);
-  width: 300px;
-  height: 380px;
+  width: 230px;
+  height: 350px;
   border-radius: 20px;
   color: rgb(241, 241, 241);
   padding: 30px;
@@ -149,6 +159,8 @@ header a:hover {
 }
 .recuadro-informacion:hover {
   transform: scale(1.05);
+  background-color: rgb(22, 124, 35);
+  cursor: pointer;
 }
 .icon {
   width: 100px;
@@ -451,14 +463,63 @@ a {
 .check {
   display: none;
 }
-.container-patrocinadores {
-  display: flex;
+
+
+/* Sección de patrocinadores */
+.seccion-patrocinadores {
+  display: flex; 
   justify-content: center;
+  align-items: flex-start; 
+  padding: 30px 10px;
+  background-color: #ffffff; 
+  border-radius: 10px; 
+  margin: 40px auto; 
+  min-width: 100%;
+  gap: 200px;
+}
+
+.patrocinadores, .organiza {
+  text-align: center;
+  margin: 0 20px; 
+}
+
+.seccion-patrocinadores h2 {
+  font-size: 28px; 
+  color: #051f69; 
+  margin-bottom: 20px; 
+  font-weight: 550;
+}
+
+.logos {
+  display: flex;
+  justify-content: center; 
   align-items: center;
-  gap: 100px 300px;
-  margin: 60px;
+  gap: 20px;
   flex-wrap: wrap;
 }
+#logo-inca{
+  width: 150px;
+}
+#logo-revista{
+  width: 250px;
+}
+
+.logos img {
+  width: 80px; 
+  height: auto;
+  transition: transform 0.3s ease; 
+}
+
+.logo-grande {
+  width: 150px; 
+  height: auto;
+}
+
+.logos img:hover {
+  transform: scale(1.1); 
+}
+
+
 .apoya,
 .organiza {
   display: flex;
@@ -477,6 +538,21 @@ a {
 #logo-inca{
   width: 250px;
 }
+.container-lineas-tematicas {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.titulo_icono_te {
+  width: 10px;
+  height: 10px;
+}
+
+
+
 .container-lineas-tematicas {
   margin-top: 100px;
   display: flex;
@@ -691,6 +767,20 @@ footer {
   }
 }
 
+@media (max-width: 1230px) {
+  .navegador {
+    position: relative;
+    left: 28%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .navegador {
+    position: relative;
+    left: 18%;
+  }
+}
+
 @media (max-width: 900px) {
   .banner2 {
     overflow: hidden;
@@ -833,19 +923,6 @@ footer {
   }
 }
 
-@media (max-width: 1230px) {
-  .navegador {
-    position: relative;
-    left: 28%;
-  }
-}
-
-@media (max-width: 1000px) {
-  .navegador {
-    position: relative;
-    left: 18%;
-  }
-}
 
 @media (max-width: 900px) {
   .navegador {
@@ -855,6 +932,24 @@ footer {
   .container-ultimo-banner h1 {
     color: #f2d20f;
     font-size: 10vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .seccion-patrocinadores {
+      flex-direction: column; 
+      align-items: center; 
+      gap: 100px;
+  }
+  .organiza img{
+    width: 80vw;
+  }
+  .patrocinadores, .organiza {
+    margin-bottom: 0;
+  }
+  .seccion-patrocinadores h2{
+    font-size: 20px;
+    font-weight: 600;
   }
 }
 
