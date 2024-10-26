@@ -1,6 +1,6 @@
 <div class="inicio"></div>
     <header>
-        <img class="logo" src="/img/logo.png" alt="">
+        <img class="logo" src="img/logo.png" alt="">
         <input type="checkbox" id="check">
         <label for="check" class="abrir-menu">
             &#8801

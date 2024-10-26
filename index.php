@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
     <title>IV CONGRESO NACIONAL DE INVESTIGACIÓN E INNOVACIÓN</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="shortcut icon" href="img/LOGO SIN LETRAS.svg" />
+    <link rel="shortcut icon" href="img/favicon.svg" />
 </head>
 
 
@@ -148,6 +148,8 @@
     <!--------------------------------------------- CONTENEDOR EXPOSITORES -------------------------------------------------------->
     <br><br><br><br><br>
     <div class="container-fondo-expositores">
+        <h1 class="titulo">CONOCE A NUESTROS EXPOSITORES</h1>
+        <h4>Sumérgete en el talento y conocimiento de los expertos que compartirán sus ideas y experiencias.</h4>
         <div class="primera-columna-de-expositores">
             <div id="primer-expositor" class="expositor">
                 <img class="imagen-expositor" src="img/primer-expositor.png" alt="">
@@ -189,6 +191,7 @@
                 </div>
             </div>
         </div>
+        <!--------------------------------------------- CONTENEDOR EXPOSITORES 2 -------------------------------------------------------->
         <div class="segunda-linea-de-expositores">
             <div id="primer-expositor" class="expositor">
                 <img class="imagen-expositor" src="img/cuarto-expositor.png" alt="">
@@ -230,53 +233,23 @@
                 </div>
             </div>
         </div>
-    </div>    
-
-
-    <!-- <div class="container-fondo-expositores">
-        <div id="primer-expositor" class="expositor">
-            <img class="imagen-expositor" src="img/cuarto-expositor.png" alt="">
-            <img class="linea" src="img/linea-seccion-expositores.png" alt="">
-            <div class="textt">
-                <h1>JORGE ENRIQUE</h1>
-                <h4>PÁRAMO GRANADOS</h4>
-            </div>
-            <div class="infoperfil">
-                <img src="img/icons8-podio-con-altavoz-48.png" alt="">
-                Ingeniero Pesquero de la Universidad del Magdalena. Magíster (M.Sc.) en Pesquerías de la Universidad de
-                Concepción, Chile. Doctorado (Ph.D.) en Ciencias Naturales, Universidad de Bremen, Alemania.
+         <!--------------------------------------------- CONTENEDOR EXPOSITORES 3 -------------------------------------------------------->
+        <div class="container-unico-expositor">
+            <div id="unico-expositor" class="expositor">
+                <img class="imagen-expositor" src="img/septimo-conferencista.png" alt="">
+                <img class="linea" src="img/linea-seccion-expositores.png" alt="">
+                <div class="textt">
+                    <h1>BRIAN</h1>
+                    <h4>FUENMAYOR LUNA</h4>
+                </div>
+                <div class="infoperfil">
+                    <img src="img/icons8-podio-con-altavoz-48.png" alt="">
+                    Piloto de Aeronaves No Tripulados; Gerente General CEO Drone Robotics S.A.S - Piloto Comercial,  e Instructor Vuelo de Naves no tripuladas DJI  ACADEMY.
+                </div>
             </div>
         </div>
-        <div class="expositor">
-            <img class="imagen-expositor" src="img/quinto-expositor.png" alt="">
-            <img class="linea" src="img/linea-seccion-expositores.png" alt="">
-            <div class="textt">
-                <h1>JUAN CARLOS</h1>
-                <h4>VALDELAMAR VILLEGAS</h4>
-            </div>
-            <div class="infoperfil">
-                <img src="img/icons8-podio-con-altavoz-48.png" alt="">
-                Biólogo, con Especialización en Estadística Aplicada, Maestría en Ciencias Ambientales y Doctorado en
-                Toxicología Ambiental.
-            </div>
-        </div>
-        <div id="ultimo-expositor" class="expositor">
-            <img class="imagen-expositor" src="img/sexto-expositor.png" alt="">
-            <img class="linea" src="img/linea-seccion-expositores.png" alt="">
-            <div class="textt">
-                <h1>JUAN CARLOS</h1>
-                <h4>OSPINA CHIVIRI</h4>
-            </div>
-            <div class="infoperfil">
-                <img src="img/icons8-podio-con-altavoz-48.png" alt="">
-                Médico veterinario y zootecnista con especialidad en patología anatómica veterinaria y estudios de
-                maestría en microbiologia.
-            </div>
-        </div>
-    </div> -->
-    <!----------------------------------------------------------------------------------------------------------------------------->
-
-
+    </div>
+   
 
     <!--------------------------------------------- CONTENEDOR REGISTRO -------------------------------------------------------->
     <div id="registrate"></div>
