@@ -303,16 +303,14 @@ header a:hover {
   align-items: center;
   flex-wrap: wrap;
 }
-.primera-columna-de-expositores, .segunda-linea-de-expositores{
-  display: flex;
-  flex-wrap: wrap;
+.expositores{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
   justify-content: center;
   align-items: center;
+  padding-bottom: 20px;
+  margin-top: 10px;
 }
-.primera-columna-de-expositores{
-  margin-top: 30px;
-}
-
 
 .expositor{
   position: relative;
@@ -333,9 +331,7 @@ header a:hover {
   transition: width 0.3s ease; 
   margin: 30px 30px;
 }
-.container-unico-expositor{
-  margin-bottom: 30px;
-}
+
 .linea{
   width: 190px;
 }
@@ -1095,6 +1091,9 @@ footer {
   .container-fondo-expositores h4{
     font-size: 22px;
   }
+  .titulo{
+    font-size: 9vw;
+  }
 }
 
 /* ------------------ PANTALLAS Y PORTATILES ------------------------ */
@@ -1157,7 +1156,12 @@ footer {
     font-size: 15px;
   }
 }
-
+@media (max-width: 975px) {
+  .expositores{
+    display: flex;
+    flex-wrap:wrap;
+  }
+}
 /* ------------------ COMPUTADORAS DE ESCRITORIOS, PANTALLAS GRANDES --------------- */
 @media (min-width:1025px) and (max-width: 1200px){
   .img_banner{

@@ -150,7 +150,7 @@
     <div class="container-fondo-expositores">
         <h1 class="titulo">CONOCE A NUESTROS EXPOSITORES</h1>
         <h4>Sumérgete en el talento y conocimiento de los expertos que compartirán sus ideas y experiencias.</h4>
-        <div class="primera-columna-de-expositores">
+        <div class="expositores">
             <div id="primer-expositor" class="expositor">
                 <img class="imagen-expositor" src="img/primer-expositor.png" alt="">
                 <img class="linea" src="img/linea-seccion-expositores.png" alt="">
@@ -190,9 +190,7 @@
                     maestría en microbiologia.
                 </div>
             </div>
-        </div>
-        <!--------------------------------------------- CONTENEDOR EXPOSITORES 2 -------------------------------------------------------->
-        <div class="segunda-linea-de-expositores">
+            <!--------------------------------------------- CONTENEDOR EXPOSITORES 2 -------------------------------------------------------->
             <div id="primer-expositor" class="expositor">
                 <img class="imagen-expositor" src="img/cuarto-expositor.png" alt="">
                 <img class="linea" src="img/linea-seccion-expositores.png" alt="">
@@ -232,9 +230,7 @@
                     Ingeniero Industrial , especialista en Gestión Integral de la calidad y estudios en energías renovables; Responsable  de Calidad del laboratorio  de Energías Renovables. Sena Guajira.
                 </div>
             </div>
-        </div>
-         <!--------------------------------------------- CONTENEDOR EXPOSITORES 3 -------------------------------------------------------->
-        <div class="container-unico-expositor">
+            <!--------------------------------------------- CONTENEDOR EXPOSITORES 3 -------------------------------------------------------->
             <div id="unico-expositor" class="expositor">
                 <img class="imagen-expositor" src="img/septimo-conferencista.png" alt="">
                 <img class="linea" src="img/linea-seccion-expositores.png" alt="">
