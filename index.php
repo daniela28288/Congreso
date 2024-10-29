@@ -41,7 +41,7 @@
         <h1>EXPANDE TUS CONOCIMIENTOS</h1>
         <br>
         <div class="container-iconos-numericos">
-            <img class="icono-numero" src="img/numero-siete.png" alt="conferencistas">
+            <img class="icono-numero" src="img/numero-ocho.png" alt="conferencistas">
             <img class="icono-numero" src="img/icono-numero-veinte.png" alt="expositores">
             <img class="icono-numero" src="img/icono-numero-diez.png" alt="empresas">
         </div>
@@ -242,6 +242,19 @@
                 <div class="infoperfil">
                     <img src="img/icons8-podio-con-altavoz-48.png" alt="">
                     Piloto de Aeronaves No Tripulados; Gerente General CEO Drone Robotics S.A.S - Piloto Comercial,  e Instructor Vuelo de Naves no tripuladas DJI  ACADEMY.
+                </div>
+            </div>
+
+            <div class="expositor">
+                <img class="imagen-expositor" src="img/octavo-conferencista.png" alt="">
+                <img class="linea" src="img/linea-seccion-expositores.png" alt="">
+                <div class="textt">
+                    <h1 id="nombre_largo">ELQUIN BENJAMÍN</h1>
+                    <h4>MEJÍA SUAREZ</h4>
+                </div>
+                <div class="infoperfil">
+                    <img src="img/icons8-podio-con-altavoz-48.png" alt="">
+                    Ing Electrónico. Especialista en electrónica industrial y energías renovables.                 
                 </div>
             </div>
         </div>
