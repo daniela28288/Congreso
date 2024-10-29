@@ -311,7 +311,9 @@ header a:hover {
   padding-bottom: 20px;
   margin-top: 10px;
 }
-
+#nombre_largo{
+  width: 250px;;
+}
 .expositor{
   position: relative;
   display: flex;
