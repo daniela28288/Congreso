@@ -41,7 +41,7 @@
         <h1>EXPANDE TUS CONOCIMIENTOS</h1>
         <br>
         <div class="container-iconos-numericos">
-            <img class="icono-numero" src="img/icono-numero-seis.png" alt="conferencistas">
+            <img class="icono-numero" src="img/numero-siete.png" alt="conferencistas">
             <img class="icono-numero" src="img/icono-numero-veinte.png" alt="expositores">
             <img class="icono-numero" src="img/icono-numero-diez.png" alt="empresas">
         </div>
@@ -148,7 +148,7 @@
     <!--------------------------------------------- CONTENEDOR EXPOSITORES -------------------------------------------------------->
     <br><br><br><br><br>
     <div class="container-fondo-expositores">
-        <h1 class="titulo">CONOCE A NUESTROS EXPOSITORES</h1>
+        <h1 class="titulo">CONOCE A NUESTROS CONFERENCISTAS</h1>
         <h4>Sumérgete en el talento y conocimiento de los expertos que compartirán sus ideas y experiencias.</h4>
         <div class="expositores">
             <div id="primer-expositor" class="expositor">
@@ -231,6 +231,7 @@
                 </div>
             </div>
             <!--------------------------------------------- CONTENEDOR EXPOSITORES 3 -------------------------------------------------------->
+            
             <div id="unico-expositor" class="expositor">
                 <img class="imagen-expositor" src="img/septimo-conferencista.png" alt="">
                 <img class="linea" src="img/linea-seccion-expositores.png" alt="">
