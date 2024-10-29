@@ -6,7 +6,7 @@
     <title>Agroindustria</title>
     <link rel="stylesheet" href="styles_vistas_ejes.css">
     <link rel="stylesheet" href="index.css">
-    <link rel="shortcut icon" href="img/LOGO SIN LETRAS.svg" />
+    <link rel="shortcut icon" href="img/favicon.svg" />
 </head>
 <body>
     <?php include_once 'includes/header.php'; ?>
