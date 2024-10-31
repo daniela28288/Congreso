@@ -27,9 +27,7 @@
     <div class="informacion">
         <h1>¿Por qué asistir?</h1>
         <br>
-        <p>Este es un evento arbitrado con un escenario de carácter académico, científico y empresarial, que busca
-            generar y transferir conocimiento en investigación e innovación agroempresarial entre los diferentes actores
-            y con una visión prospectiva al año 2030, aportando al desarrollo del país</p>
+        <p>Este es un evento arbitrado con un escenario académico, científico y empresarial, que busca transferir conocimiento en investigación e innovación agroempresarial entre los diferentes actores y con una visión prospectiva al año 2030, aportando al desarrollo del país</p>
     </div>
     <!-- ----------------------------------------------------------------------------------------------------------------->
 
@@ -255,6 +253,19 @@
                 <div class="infoperfil">
                     <img src="img/icons8-podio-con-altavoz-48.png" alt="">
                     Ing Electrónico. Especialista en electrónica industrial y energías renovables.                 
+                </div>
+            </div>
+
+            <div class="expositor">
+                <img class="imagen-expositor" src="img/noveno-conferencista.png" alt="">
+                <img class="linea" src="img/linea-seccion-expositores.png" alt="">
+                <div class="textt">
+                    <h1 id="nombre_largo">JAIME ORLANDO</h1>
+                    <h4>GARCIA JARABA</h4>
+                </div>
+                <div class="infoperfil">
+                    <img src="img/icons8-podio-con-altavoz-48.png" alt="">
+                    Ingeniero ambiental. Especialista en gestion ambiental. Especialista en pedagogía ambiental. Especialista en implementación del BPA. Magister en gestión ambiental.                
                 </div>
             </div>
         </div>

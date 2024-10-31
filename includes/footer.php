@@ -6,11 +6,6 @@
     </div>
     <!--------------------------------------------------------------------------------------------------------------------------------->
 
-
-
-
-
-
     <!--------------------------------------------- CONTENEDOR PATROCINADORES -------------------------------------------------------->
     <div class="seccion-patrocinadores">
         <div class="patrocinadores">
@@ -18,6 +13,7 @@
             <div class="logos">
                 <img id="logo-inca" src="img/log inca-01.png" alt="Logo Inca">
                 <a href="https://revistas.sena.edu.co/index.php/rnt/issue/archive" target="_blank" title="Visitar el sitio"><img id="logo-revista" src="img/WhatsApp Image 2024-10-24 at 4.45.41 PM.jpeg" alt="Logo Patrocinador"></a>
+                <img src="img/tercer-logo-apoya.png" alt="" id="logo-universidad">
             </div>
         </div>
         
@@ -29,11 +25,6 @@
         </div>
     </div>
     <!------------------------------------------------------------------------- -------------------------------------------------------->
-
-
-
-
-
 
 
 
