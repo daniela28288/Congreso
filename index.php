@@ -39,7 +39,7 @@
         <h1>EXPANDE TUS CONOCIMIENTOS</h1>
         <br>
         <div class="container-iconos-numericos">
-            <img class="icono-numero" src="img/numero-ocho.png" alt="conferencistas">
+            <img class="icono-numero" src="img/nueve.png" alt="conferencistas">
             <img class="icono-numero" src="img/icono-numero-veinte.png" alt="expositores">
             <img class="icono-numero" src="img/icono-numero-diez.png" alt="empresas">
         </div>
