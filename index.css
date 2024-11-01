@@ -85,6 +85,45 @@ header a:hover {
 /* ----------------------------------------------------------------------------------------------------------- */
 
 
+
+
+/* <!---------------------------------------------------------- BOTON AGENDAR -------------------------------------------------> */
+.boton_agendar{
+  width: 200px;
+  position: absolute;
+  top: 80vh;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  background-color: #002569;
+  color: #fff;
+  font-size: 20px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  position: fixed;
+}
+.boton_agendar img{
+  height: 50px;
+  transition: transform 0.3s ease;
+}
+.boton_agendar img:hover{
+  transform: scale(1.1);
+}
+.contenedor_icon_agendar{
+  background-color: #18a32b;
+  padding: 8px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+/* <!-----------------------------------------------------------------------------------------------------------------------> */
+
+
+
+
+
 /*---------------------------------------------- INFORMACION POR QUE ASISTIR --------------------------------- */
 .informacion {
   display: flex;

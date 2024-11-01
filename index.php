@@ -23,6 +23,23 @@
 
 
 
+    <!-- ------------------------------------------------------- BOTON AGENDAR ------------------------------------------------->
+
+    <a href="#" class="boton_agendar">
+        <div class="contenedor_icon_agendar">
+            <img src="img/icon_calendario_color.png" alt="">
+        </div>
+        <p>Agendar</p>
+    </a>
+
+    <!-- ------------------------------------------------------- BOTON AGENDAR ------------------------------------------------->
+
+
+
+
+
+
+
     <!-- ---------------------------------------------- INFORMACION POR QUE ASISTIR ---------------------------------------------------->
     <div class="informacion">
         <h1>¿Por qué asistir?</h1>
