@@ -282,7 +282,7 @@
                 </div>
                 <div class="infoperfil">
                     <img src="img/icons8-podio-con-altavoz-48.png" alt="">
-                    Ingeniero ambiental. Especialista en gestion ambiental. Especialista en pedagogía ambiental. Especialista en implementación del BPA. Magister en gestión ambiental.                
+                    Ingeniero ambiental. Especialista en gestion ambiental. Especialista en pedagogía ambiental. Especialista en implementación de BPA. Magister en gestión ambiental.                
                 </div>
             </div>
         </div>
