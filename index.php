@@ -16,7 +16,7 @@
     <!-- ------------------------------------------------------- BANNEER ------------------------------------------------->
 
     <img src="img/portada_horizontal_info.png" alt="" class="img_banner">
-    <img src="img/IV Congreso New.png" alt="" class="img_banner2">
+    <img src="img/banner 2 IV congreso.jpg" alt="" class="img_banner2">
 
     <!-- ----------------------------------------------------------------------------------------------------------------->
 
