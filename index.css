@@ -620,7 +620,9 @@ a {
   height: auto;
   transition: transform 0.3s ease; 
 }
-
+#logo_agropec{
+  width: 100px;
+}
 .logo-grande {
   width: 150px; 
   height: auto;

@@ -11,9 +11,10 @@
         <div class="patrocinadores">
             <h2>Apoya</h2>
             <div class="logos">
-                <img id="logo-inca" src="img/log inca-01.png" alt="Logo Inca">
+                <a href="https://www.ica.gov.co/home" target="_blank" title="Visitar el sitio"><img id="logo-inca" src="img/log inca-01.png" alt="Logo Inca"></a>
                 <a href="https://revistas.sena.edu.co/index.php/rnt/issue/archive" target="_blank" title="Visitar el sitio"><img id="logo-revista" src="img/WhatsApp Image 2024-10-24 at 4.45.41 PM.jpeg" alt="Logo Patrocinador"></a>
-                <img src="img/tercer-logo-apoya.png" alt="" id="logo-universidad">
+                <a href="https://uniguajira.edu.co/universidad-de-la-guajira/posgrado/ofertas-academicas-de-posgrado/doctorado-de-posgrado/doctorado-de-la-facultad-de-ingenieria/doctorado-en-innovacion/" target="_blank" title="Visitar el sitio"><img src="img/tercer-logo-apoya.png" alt="" id="logo-universidad"></a>
+                <a href=""><img src="img/agropec_img.jpg" alt="" id="logo_agropec"></a>
             </div>
         </div>
         
