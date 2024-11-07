@@ -197,7 +197,7 @@
                 <img class="linea" src="img/linea-seccion-expositores.png" alt="">
                 <div class="textt">
                     <h1>JUAN CARLOS</h1>
-                    <h4>OSPINA CHIVIRI</h4>
+                    <h4>OSPINA CHIRIVI</h4>
                 </div>
                 <div class="infoperfil">
                     <img src="img/icons8-podio-con-altavoz-48.png" alt="">
