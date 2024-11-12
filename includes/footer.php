@@ -11,10 +11,18 @@
         <div class="patrocinadores">
             <h2>Apoya</h2>
             <div class="logos">
+                <div class="columna">
                 <a href="https://www.ica.gov.co/home" target="_blank" title="Visitar el sitio"><img id="logo-inca" src="img/log inca-01.png" alt="Logo Inca"></a>
                 <a href="https://revistas.sena.edu.co/index.php/rnt/issue/archive" target="_blank" title="Visitar el sitio"><img id="logo-revista" src="img/WhatsApp Image 2024-10-24 at 4.45.41 PM.jpeg" alt="Logo Patrocinador"></a>
                 <a href="https://uniguajira.edu.co/universidad-de-la-guajira/posgrado/ofertas-academicas-de-posgrado/doctorado-de-posgrado/doctorado-de-la-facultad-de-ingenieria/doctorado-en-innovacion/" target="_blank" title="Visitar el sitio"><img src="img/tercer-logo-apoya.png" alt="" id="logo-universidad"></a>
+
+                </div>
+                <div class="columna">
                 <a href=""><img src="img/agropec_img.jpg" alt="" id="logo_agropec"></a>
+                <a href=""><img id="logo-pequeño" src="img/logoDR1.png" alt=""></a>
+                <a href=""><img id="logo-andi" src="img/logo andi.png" alt=""></a>
+                <a href="https://www.unimagdalena.edu.co/" target="_blank" title="Visitar el sitio"><img src="img/unimag1.png" alt="" id="logo-uni"></a>
+                </div>
             </div>
         </div>
         

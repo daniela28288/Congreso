@@ -35,11 +35,6 @@
     <!-- ------------------------------------------------------- BOTON AGENDAR ------------------------------------------------->
 
 
-
-
-
-
-
     <!-- ---------------------------------------------- INFORMACION POR QUE ASISTIR ---------------------------------------------------->
     <div class="informacion">
         <h1>¿Por qué asistir?</h1>
@@ -47,8 +42,6 @@
         <p>Este es un evento arbitrado con un escenario académico, científico y empresarial, que busca transferir conocimiento en investigación e innovación agroempresarial entre los diferentes actores y con una visión prospectiva al año 2030, aportando al desarrollo del país</p>
     </div>
     <!-- ----------------------------------------------------------------------------------------------------------------->
-
-
 
     <!-- ----------------------------------------------NUMEROS ASISTENTES---------------------------------------------------->
     <div class="container-numeros">
