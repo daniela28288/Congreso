@@ -18,10 +18,11 @@
 
                 </div>
                 <div class="columna">
-                <a href=""><img src="img/agropec_img.jpg" alt="" id="logo_agropec"></a>
-                <a href=""><img id="logo-pequeño" src="img/logoDR1.png" alt=""></a>
-                <a href=""><img id="logo-andi" src="img/logo andi.png" alt=""></a>
+                <img src="img/agropec_img.jpg" alt="" id="logo_agropec">
+                <img id="logo-pequeño" src="img/logoDR1.png" alt="">
+                <img id="logo-andi" src="img/logo andi.png" alt="">
                 <a href="https://www.unimagdalena.edu.co/" target="_blank" title="Visitar el sitio"><img src="img/unimag1.png" alt="" id="logo-uni"></a>
+                <img id="ultimo-logoo" src="img/ultimo-logo.png" alt="">
                 </div>
             </div>
         </div>

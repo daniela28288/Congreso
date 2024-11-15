@@ -25,7 +25,7 @@
 
     <!-- ------------------------------------------------------- BOTON AGENDAR ------------------------------------------------->
 
-    <a href="#" class="boton_agendar">
+    <a href="./docs/Agenda_Congreso_2024c (1).pdf" class="boton_agendar" target="_blank">
         <div class="contenedor_icon_agendar">
             <img src="img/icon_calendario_color.png" alt="">
         </div>
